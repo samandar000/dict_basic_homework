@@ -16,3 +16,5 @@ def count_all(txt):
             digits+=1
     answer = {"LETTERS":letters, "DIGITS" : digits}
     return answer
+s='Hello world'
+print(count_all(s))
