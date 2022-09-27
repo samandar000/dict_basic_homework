@@ -12,7 +12,7 @@ def oldest(people:dict):
     name = list(people)
     age = list(people.values())
     mage = max(age)
-    index = age.index(mage)
+    index = age.index(max)
 
     
     return name[index]
