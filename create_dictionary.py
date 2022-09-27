@@ -11,4 +11,5 @@ def create_dictionary(key, value):
     dic={}
     for i in range(1,k+1):
         dic[i]=value[i-1]
+    
     return dic
